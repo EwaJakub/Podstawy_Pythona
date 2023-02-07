@@ -12,3 +12,11 @@ zamiast nich zwracając zero.
 
 Napisz dekorator `stringify`, który będzie dekorował/przerabiał funkcje jednoargumentowe 
 w taki sposób, żeby zwracana przez nie wartość była zawsze przerabiana na stringa.
+
+
+## Zadanie 3
+
+Napisz dekorator do funkcji zwracającej wartość logiczną wywołujący funkcję do czasu gdy zwróci True. 
+Przetestuj na funkcji czytającej z wejścia i sprawdzającej czy użytkownik wpisał 'python'. Niech
+dekorator jako argument przyjmuje liczbę całkowitą oznaczającą maksymalną liczbę prób wywołania
+funkcji dekorowanej.
