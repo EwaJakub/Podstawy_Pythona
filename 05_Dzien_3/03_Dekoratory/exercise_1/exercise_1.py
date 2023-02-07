@@ -1,8 +1,9 @@
 def rectifier(f):
     def inner(x):
-        if f(x) > 0:
-            return f(x)
-        elif f(x) < 0:
+        func = f(x)
+        if func > 0:
+            return func
+        elif func < 0:
             return 0
     return inner
 
